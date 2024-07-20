@@ -32,7 +32,7 @@ pipeline
 			steps
                         {
                                 echo "Hello Java"
-                                sh "java --version"
+                                sh "java -version"
                         }
 		}
 	}
