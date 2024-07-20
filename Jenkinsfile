@@ -25,7 +25,7 @@ pipeline
                         {
                                 docker
                                 {
-                                         image "openjdk:8-jre≈"
+                                         image "openjdk:8-jre"
                                          label "dockerslave"
                                 }
                         }
